@@ -11,3 +11,8 @@ Use the default triage labels: `needs-triage`, `needs-info`, `ready-for-agent`, 
 ### Domain docs
 
 This repository uses a single-context layout. See `docs/agents/domain.md`.
+
+### Structural code search
+
+You are operating in an environment where `ast-grep` is installed.
+For any code search that requires understanding of syntax or code structure, you should default to using `ast-grep --lang [language] -p '`
